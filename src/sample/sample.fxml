@@ -13,7 +13,7 @@
    <children>
       <AnchorPane layoutY="260.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="489.0" prefWidth="427.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="260.0">
          <children>
-            <GridPane layoutX="10.0" layoutY="10.0" prefHeight="474.0" prefWidth="416.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <GridPane layoutX="10.0" layoutY="10.0" pickOnBounds="false" prefHeight="474.0" prefWidth="416.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                <columnConstraints>
                   <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                   <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -106,7 +106,7 @@
                      <cursor>
                         <Cursor fx:constant="HAND" />
                      </cursor></Button>
-                  <Button mnemonicParsing="false" prefHeight="89.0" prefWidth="113.0" styleClass="buttsign" stylesheets="@butNumStyle.css" text="÷" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                  <Button mnemonicParsing="false" prefHeight="90.0" prefWidth="118.0" styleClass="buttsign" stylesheets="@butNumStyle.css" text="÷" GridPane.columnIndex="3" GridPane.rowIndex="1">
                      <font>
                         <Font name="Segoe UI Symbol" size="31.0" />
                      </font>
