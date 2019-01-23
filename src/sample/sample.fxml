@@ -11,7 +11,7 @@
 
 <AnchorPane prefHeight="749.0" prefWidth="414.0" style="-fx-background-color: ;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <AnchorPane layoutY="260.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="489.0" prefWidth="427.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="260.0">
+      <AnchorPane layoutY="263.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="498.0" prefWidth="427.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="263.0">
          <children>
             <GridPane layoutX="10.0" layoutY="10.0" pickOnBounds="false" prefHeight="474.0" prefWidth="416.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                <columnConstraints>
@@ -78,7 +78,7 @@
                      <cursor>
                         <Cursor fx:constant="HAND" />
                      </cursor></Button>
-                  <Button layoutX="316.0" layoutY="35.0" mnemonicParsing="false" prefHeight="120.0" prefWidth="970.0" styleClass="buttSwitchDot" stylesheets="@butNumStyle.css" text="\%">
+                  <Button layoutX="316.0" layoutY="35.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="107.0" styleClass="buttSwitchDot" stylesheets="@butNumStyle.css" text="\%">
                      <font>
                         <Font name="Segoe UI Symbol" size="31.0" />
                      </font>
