@@ -212,7 +212,7 @@
                      <cursor>
                         <Cursor fx:constant="HAND" />
                      </cursor></Button>
-                  <Button mnemonicParsing="false" prefHeight="100.0" prefWidth="970.0" text="±" GridPane.rowIndex="5">
+                  <Button mnemonicParsing="false" prefHeight="100.0" prefWidth="970.0" styleClass="buttSwitchDot" stylesheets="@butNumStyle.css" text="±" GridPane.rowIndex="5">
                      <font>
                         <Font name="Segoe UI Symbol" size="36.0" />
                      </font>
@@ -229,7 +229,7 @@
                      <cursor>
                         <Cursor fx:constant="HAND" />
                      </cursor></Button>
-                  <Button mnemonicParsing="false" prefHeight="100.0" prefWidth="970.0" text="." GridPane.columnIndex="2" GridPane.rowIndex="5">
+                  <Button mnemonicParsing="false" prefHeight="100.0" prefWidth="970.0" styleClass="buttSwitchDot" stylesheets="@butNumStyle.css" text="." GridPane.columnIndex="2" GridPane.rowIndex="5">
                      <font>
                         <Font name="Segoe UI Symbol" size="36.0" />
                      </font>
