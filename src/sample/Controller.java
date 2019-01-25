@@ -63,4 +63,18 @@ public class Controller {
         insertNum("9");
     }
 
+    public void actionButtDot(){
+        boolean flag=true;
+        for(int i=0;i<mainlabel.getText().length();i++){
+            if(mainlabel.getText().charAt(i)=='.'){
+                flag = false;
+                break;
+            }
+        }
+        if(flag){
+            mainlabel.setText(mainlabel.getText()+".");
+            flag = false;
+        }
+    }
+
 }
