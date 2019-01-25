@@ -18,6 +18,7 @@ public class Controller {
     public Button buttdot;
     public Button buttSwitchSign;
     public Button buttdelete;
+    public Button buttCE;
     public Label mainlabel;
     public Label historylabel;
 
@@ -102,6 +103,10 @@ public class Controller {
         String num = mainlabel.getText();
         num = num.substring(0, num.length() - 1);
         mainlabel.setText(num);
+    }
+
+    public void actionButtCE(){
+        mainlabel.setText("");
     }
 
 }

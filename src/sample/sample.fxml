@@ -58,7 +58,7 @@
                      <cursor>
                         <Cursor fx:constant="HAND" />
                      </cursor></Button>
-                  <Button mnemonicParsing="false" prefHeight="120.0" prefWidth="970.0" styleClass="buttSwitchDot" stylesheets="@butNumStyle.css" text="CE" GridPane.rowIndex="1">
+                  <Button fx:id="buttCE" mnemonicParsing="false" onAction="#actionButtCE" prefHeight="120.0" prefWidth="970.0" styleClass="buttSwitchDot" stylesheets="@butNumStyle.css" text="CE" GridPane.rowIndex="1">
                      <font>
                         <Font name="Segoe UI Semibold" size="36.0" />
                      </font>
