@@ -4,6 +4,7 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
 public class Main extends Application {
@@ -11,6 +12,8 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
+        Image img = new Image("sample/calculator-icon.png");
+        primaryStage.getIcons().add(img);
         primaryStage.setTitle("AbdelHady's Calculator");
         primaryStage.setScene(new Scene(root, 414, 749));
         primaryStage.show();

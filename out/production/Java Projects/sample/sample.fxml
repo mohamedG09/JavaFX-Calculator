@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="749.0" prefWidth="414.0" style="-fx-background-color: ;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane prefHeight="749.0" prefWidth="414.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
       <AnchorPane layoutY="263.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="498.0" prefWidth="427.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="263.0">
          <children>
@@ -86,21 +86,21 @@
                      <cursor>
                         <Cursor fx:constant="HAND" />
                      </cursor></Button>
-                  <Button mnemonicParsing="false" prefHeight="120.0" prefWidth="970.0" styleClass="buttnum" stylesheets="@butNumStyle.css" text="7" GridPane.rowIndex="2">
+                  <Button fx:id="butt7" mnemonicParsing="false" onAction="#actionButt7" prefHeight="120.0" prefWidth="970.0" styleClass="buttnum" stylesheets="@butNumStyle.css" text="7" GridPane.rowIndex="2">
                      <font>
                         <Font name="Segoe UI Semibold" size="36.0" />
                      </font>
                      <cursor>
                         <Cursor fx:constant="HAND" />
                      </cursor></Button>
-                  <Button mnemonicParsing="false" prefHeight="120.0" prefWidth="970.0" styleClass="buttnum" stylesheets="@butNumStyle.css" text="8" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                  <Button fx:id="butt8" mnemonicParsing="false" onAction="#actionButt8" prefHeight="120.0" prefWidth="970.0" styleClass="buttnum" stylesheets="@butNumStyle.css" text="8" GridPane.columnIndex="1" GridPane.rowIndex="2">
                      <font>
                         <Font name="Segoe UI Semibold" size="36.0" />
                      </font>
                      <cursor>
                         <Cursor fx:constant="HAND" />
                      </cursor></Button>
-                  <Button mnemonicParsing="false" prefHeight="120.0" prefWidth="970.0" styleClass="buttnum" stylesheets="@butNumStyle.css" text="9" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                  <Button fx:id="butt9" mnemonicParsing="false" onAction="#actionButt9" prefHeight="120.0" prefWidth="970.0" styleClass="buttnum" stylesheets="@butNumStyle.css" text="9" GridPane.columnIndex="2" GridPane.rowIndex="2">
                      <font>
                         <Font name="Segoe UI Semibold" size="36.0" />
                      </font>
@@ -114,21 +114,21 @@
                      <cursor>
                         <Cursor fx:constant="HAND" />
                      </cursor></Button>
-                  <Button mnemonicParsing="false" prefHeight="120.0" prefWidth="970.0" styleClass="buttnum" stylesheets="@butNumStyle.css" text="4" GridPane.rowIndex="3">
+                  <Button fx:id="butt4" mnemonicParsing="false" onAction="#actionButt4" prefHeight="120.0" prefWidth="970.0" styleClass="buttnum" stylesheets="@butNumStyle.css" text="4" GridPane.rowIndex="3">
                      <font>
                         <Font name="Segoe UI Semibold" size="36.0" />
                      </font>
                      <cursor>
                         <Cursor fx:constant="HAND" />
                      </cursor></Button>
-                  <Button mnemonicParsing="false" prefHeight="120.0" prefWidth="970.0" styleClass="buttnum" stylesheets="@butNumStyle.css" text="5" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                  <Button fx:id="butt5" mnemonicParsing="false" onAction="#actionButt5" prefHeight="120.0" prefWidth="970.0" styleClass="buttnum" stylesheets="@butNumStyle.css" text="5" GridPane.columnIndex="1" GridPane.rowIndex="3">
                      <font>
                         <Font name="Segoe UI Semibold" size="36.0" />
                      </font>
                      <cursor>
                         <Cursor fx:constant="HAND" />
                      </cursor></Button>
-                  <Button mnemonicParsing="false" prefHeight="120.0" prefWidth="970.0" styleClass="buttnum" stylesheets="@butNumStyle.css" text="6" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                  <Button fx:id="butt6" mnemonicParsing="false" onAction="#actionButt6" prefHeight="120.0" prefWidth="970.0" styleClass="buttnum" stylesheets="@butNumStyle.css" text="6" GridPane.columnIndex="2" GridPane.rowIndex="3">
                      <font>
                         <Font name="Segoe UI Semibold" size="36.0" />
                      </font>
@@ -142,21 +142,21 @@
                      <cursor>
                         <Cursor fx:constant="HAND" />
                      </cursor></Button>
-                  <Button mnemonicParsing="false" prefHeight="120.0" prefWidth="970.0" styleClass="buttnum" stylesheets="@butNumStyle.css" text="1" GridPane.rowIndex="4">
+                  <Button fx:id="butt1" mnemonicParsing="false" onAction="#actionButt1" prefHeight="120.0" prefWidth="970.0" styleClass="buttnum" stylesheets="@butNumStyle.css" text="1" GridPane.rowIndex="4">
                      <font>
                         <Font name="Segoe UI Semibold" size="36.0" />
                      </font>
                      <cursor>
                         <Cursor fx:constant="HAND" />
                      </cursor></Button>
-                  <Button mnemonicParsing="false" prefHeight="120.0" prefWidth="970.0" styleClass="buttnum" stylesheets="@butNumStyle.css" text="2" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                  <Button fx:id="butt2" mnemonicParsing="false" onAction="#actionButt2" prefHeight="120.0" prefWidth="970.0" styleClass="buttnum" stylesheets="@butNumStyle.css" text="2" GridPane.columnIndex="1" GridPane.rowIndex="4">
                      <font>
                         <Font name="Segoe UI Semibold" size="36.0" />
                      </font>
                      <cursor>
                         <Cursor fx:constant="HAND" />
                      </cursor></Button>
-                  <Button mnemonicParsing="false" prefHeight="120.0" prefWidth="970.0" styleClass="buttnum" stylesheets="@butNumStyle.css" text="3" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                  <Button fx:id="butt3" mnemonicParsing="false" onAction="#actionButt3" prefHeight="120.0" prefWidth="970.0" styleClass="buttnum" stylesheets="@butNumStyle.css" text="3" GridPane.columnIndex="2" GridPane.rowIndex="4">
                      <font>
                         <Font name="Segoe UI Semibold" size="36.0" />
                      </font>
@@ -177,7 +177,7 @@
                      <cursor>
                         <Cursor fx:constant="HAND" />
                      </cursor></Button>
-                  <Button mnemonicParsing="false" prefHeight="95.0" prefWidth="970.0" styleClass="buttnum" stylesheets="@butNumStyle.css" text="0" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                  <Button fx:id="butt0" mnemonicParsing="false" onAction="#actionButt0" prefHeight="95.0" prefWidth="970.0" styleClass="buttnum" stylesheets="@butNumStyle.css" text="0" GridPane.columnIndex="1" GridPane.rowIndex="5">
                      <font>
                         <Font name="Segoe UI Semibold" size="36.0" />
                      </font>
@@ -208,11 +208,11 @@
             </GridPane>
          </children>
       </AnchorPane>
-      <Label alignment="CENTER_RIGHT" prefHeight="173.0" prefWidth="427.0" text="0" textAlignment="RIGHT" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <Label fx:id="mainlabel" alignment="CENTER_RIGHT" prefHeight="173.0" prefWidth="427.0" textAlignment="RIGHT" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <font>
             <Font name="Segoe UI Semibold" size="100.0" />
          </font></Label>
-      <Label layoutX="1.0" layoutY="180.0" opacity="0.45" prefHeight="83.0" prefWidth="427.0" text="History" AnchorPane.leftAnchor="0.0">
+      <Label fx:id="historylabel" layoutX="1.0" layoutY="180.0" opacity="0.45" prefHeight="83.0" prefWidth="427.0" text="History" AnchorPane.leftAnchor="0.0">
          <font>
             <Font name="Segoe UI Semibold" size="50.0" />
          </font>
