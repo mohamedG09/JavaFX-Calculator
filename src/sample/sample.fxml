@@ -79,7 +79,7 @@
                      <cursor>
                         <Cursor fx:constant="HAND" />
                      </cursor></Button>
-                  <Button mnemonicParsing="false" prefHeight="90.0" prefWidth="970.0" styleClass="buttsign" stylesheets="@butNumStyle.css" text="÷" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                  <Button fx:id="buttDiv" mnemonicParsing="false" onAction="#actionButtDiv" prefHeight="90.0" prefWidth="970.0" styleClass="buttsign" stylesheets="@butNumStyle.css" text="÷" GridPane.columnIndex="3" GridPane.rowIndex="1">
                      <font>
                         <Font name="Segoe UI Semibold" size="36.0" />
                      </font>
@@ -107,7 +107,7 @@
                      <cursor>
                         <Cursor fx:constant="HAND" />
                      </cursor></Button>
-                  <Button mnemonicParsing="false" prefHeight="120.0" prefWidth="970.0" styleClass="buttsign" stylesheets="@butNumStyle.css" text="×" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                  <Button fx:id="buttMulti" mnemonicParsing="false" onAction="#actionButtMulti" prefHeight="120.0" prefWidth="970.0" styleClass="buttsign" stylesheets="@butNumStyle.css" text="×" GridPane.columnIndex="3" GridPane.rowIndex="2">
                      <font>
                         <Font name="Segoe UI Semibold" size="36.0" />
                      </font>
@@ -135,7 +135,7 @@
                      <cursor>
                         <Cursor fx:constant="HAND" />
                      </cursor></Button>
-                  <Button mnemonicParsing="false" prefHeight="120.0" prefWidth="970.0" styleClass="buttsign" stylesheets="@butNumStyle.css" text="-" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                  <Button fx:id="buttMinus" mnemonicParsing="false" onAction="#actionButtMinus" prefHeight="120.0" prefWidth="970.0" styleClass="buttsign" stylesheets="@butNumStyle.css" text="-" GridPane.columnIndex="3" GridPane.rowIndex="3">
                      <font>
                         <Font name="Segoe UI Semibold" size="36.0" />
                      </font>
@@ -163,7 +163,7 @@
                      <cursor>
                         <Cursor fx:constant="HAND" />
                      </cursor></Button>
-                  <Button mnemonicParsing="false" prefHeight="120.0" prefWidth="970.0" styleClass="buttsign" stylesheets="@butNumStyle.css" text="+" GridPane.columnIndex="3" GridPane.rowIndex="4">
+                  <Button fx:id="buttPlus" mnemonicParsing="false" onAction="#actionButtPlus" prefHeight="120.0" prefWidth="970.0" styleClass="buttsign" stylesheets="@butNumStyle.css" text="+" GridPane.columnIndex="3" GridPane.rowIndex="4">
                      <font>
                         <Font name="Segoe UI Semibold" size="36.0" />
                      </font>
@@ -191,7 +191,7 @@
                      <cursor>
                         <Cursor fx:constant="HAND" />
                      </cursor></Button>
-                  <Button mnemonicParsing="false" prefHeight="120.0" prefWidth="970.0" styleClass="buttsign" stylesheets="@butNumStyle.css" text="=" GridPane.columnIndex="3" GridPane.rowIndex="5">
+                  <Button fx:id="buttEqual" mnemonicParsing="false" onAction="#actionButtEqual" prefHeight="120.0" prefWidth="970.0" styleClass="buttsign" stylesheets="@butNumStyle.css" text="=" GridPane.columnIndex="3" GridPane.rowIndex="5">
                      <font>
                         <Font name="Segoe UI Semibold" size="36.0" />
                      </font>

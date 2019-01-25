@@ -19,8 +19,34 @@ public class Controller {
     public Button buttSwitchSign;
     public Button buttdelete;
     public Button buttCE;
+    public Button buttDiv;
+    public Button buttMulti;
+    public Button buttMinus;
+    public Button buttPlus;
+    public Button buttEqual;
     public Label mainlabel;
     public Label historylabel;
+
+
+    public double num1;
+    public double num2;
+    public char ope;
+
+    public void setOpe(char x){
+        num1 = Double.parseDouble(mainlabel.getText());
+        ope = x;
+        historylabel.setText(getwholeNum(num1)+" "+x);
+        mainlabel.setText("");
+    }
+
+    public String getwholeNum(double x){
+        if(extractDecimal(x)==0){
+             return String.valueOf((int)x);
+        }
+        else{
+            return String.valueOf(x);
+        }
+    }
 
     public double extractDecimal(double x){
         double fractional = x-((int) x);
@@ -109,4 +135,45 @@ public class Controller {
         mainlabel.setText("");
     }
 
+    public void actionButtDiv() {
+        setOpe('/');
+    }
+
+    public void actionButtMulti() {
+        setOpe('*');
+    }
+
+    public void actionButtMinus() {
+        setOpe('-');
+    }
+
+    public void actionButtPlus() {
+        setOpe('+');
+    }
+
+    public void actionButtEqual() {
+        num2 = Double.parseDouble(mainlabel.getText());
+        if(mainlabel.getText()=="0"){
+            mainlabel.setText("");
+        }
+        switch(ope){
+            case '/':
+                mainlabel.setText(getwholeNum(num1/num2));
+                historylabel.setText("");
+                break;
+            case '+':
+                mainlabel.setText(getwholeNum(num1+num2));
+                historylabel.setText("");
+                break;
+            case '-':
+                mainlabel.setText(getwholeNum(num1-num2));
+                historylabel.setText("");
+                break;
+            case '*':
+                mainlabel.setText(getwholeNum(num1*num2));
+                historylabel.setText("");
+                break;
+
+        }
+    }
 }
