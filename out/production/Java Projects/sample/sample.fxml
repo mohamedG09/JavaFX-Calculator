@@ -72,7 +72,7 @@
                      <cursor>
                         <Cursor fx:constant="HAND" />
                      </cursor></Button>
-                  <Button mnemonicParsing="false" prefHeight="120.0" prefWidth="970.0" styleClass="buttSwitchDot" stylesheets="@butNumStyle.css" text="⌫" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                  <Button fx:id="buttdelete" mnemonicParsing="false" onAction="#actionButtDelete" prefHeight="120.0" prefWidth="970.0" styleClass="buttSwitchDot" stylesheets="@butNumStyle.css" text="⌫" GridPane.columnIndex="2" GridPane.rowIndex="1">
                      <font>
                         <Font name="Segoe UI Semibold" size="36.0" />
                      </font>
@@ -170,7 +170,7 @@
                      <cursor>
                         <Cursor fx:constant="HAND" />
                      </cursor></Button>
-                  <Button mnemonicParsing="false" prefHeight="120.0" prefWidth="970.0" styleClass="buttSwitchDot" stylesheets="@butNumStyle.css" text="±" GridPane.rowIndex="5">
+                  <Button fx:id="buttSwitchSign" mnemonicParsing="false" onAction="#actionButtSwitchSign" prefHeight="120.0" prefWidth="970.0" styleClass="buttSwitchDot" stylesheets="@butNumStyle.css" text="±" GridPane.rowIndex="5">
                      <font>
                         <Font name="Segoe UI Semibold" size="36.0" />
                      </font>
@@ -184,7 +184,7 @@
                      <cursor>
                         <Cursor fx:constant="HAND" />
                      </cursor></Button>
-                  <Button mnemonicParsing="false" prefHeight="120.0" prefWidth="970.0" styleClass="buttSwitchDot" stylesheets="@butNumStyle.css" text="." GridPane.columnIndex="2" GridPane.rowIndex="5">
+                  <Button fx:id="buttdot" mnemonicParsing="false" onAction="#actionButtDot" prefHeight="120.0" prefWidth="970.0" styleClass="buttSwitchDot" stylesheets="@butNumStyle.css" text="." GridPane.columnIndex="2" GridPane.rowIndex="5">
                      <font>
                         <Font name="Segoe UI Semibold" size="36.0" />
                      </font>

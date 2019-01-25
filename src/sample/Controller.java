@@ -15,12 +15,22 @@ public class Controller {
     public Button butt7;
     public Button butt8;
     public Button butt9;
+    public Button buttdot;
+    public Button buttSwitchSign;
+    public Button buttdelete;
     public Label mainlabel;
     public Label historylabel;
+
+    public double extractDecimal(double x){
+        double fractional = x-((int) x);
+        return fractional;
+    }
 
     public void insertNum(String s){
         mainlabel.setText(mainlabel.getText()+s);
     }
+
+
 
     public void actionButt0(){
         if(mainlabel.getText().charAt(0)=='0'){return;}
@@ -75,6 +85,23 @@ public class Controller {
             mainlabel.setText(mainlabel.getText()+".");
             flag = false;
         }
+    }
+
+    public void actionButtSwitchSign() {
+        double x = Double.parseDouble(mainlabel.getText());
+        x *= -1;
+        if(extractDecimal(x)==0){
+        mainlabel.setText(String.valueOf((int)x));
+        }
+        else{
+            mainlabel.setText(String.valueOf(x));
+        }
+    }
+
+    public void actionButtDelete(){
+        String num = mainlabel.getText();
+        num = num.substring(0, num.length() - 1);
+        mainlabel.setText(num);
     }
 
 }
