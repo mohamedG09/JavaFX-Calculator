@@ -24,6 +24,9 @@ public class Controller {
     public Button buttMinus;
     public Button buttPlus;
     public Button buttEqual;
+    public Button buttSquare;
+    public Button buttRec;
+    public Button buttRoot;
     public Label mainlabel;
     public Label historylabel;
 
@@ -54,6 +57,9 @@ public class Controller {
     }
 
     public void insertNum(String s){
+        if(mainlabel.getText().equals("0")){
+            mainlabel.setText("");
+        }
         mainlabel.setText(mainlabel.getText()+s);
     }
 
@@ -175,5 +181,22 @@ public class Controller {
                 break;
 
         }
+    }
+    public void actionButtSquare() {
+        double x = Double.parseDouble(mainlabel.getText());
+        x = Math.pow(x,2);
+        mainlabel.setText(String.valueOf(getwholeNum(x)));
+    }
+
+    public void actionButtRec() {
+        double x = Double.parseDouble(mainlabel.getText());
+        x = 1/x;
+        mainlabel.setText(String.valueOf(getwholeNum(x)));
+    }
+
+    public void actionButtRoot() {
+        double x = Double.parseDouble(mainlabel.getText());
+        x = Math.sqrt(x);
+        mainlabel.setText(String.valueOf(getwholeNum(x)));
     }
 }
