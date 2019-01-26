@@ -27,6 +27,8 @@ public class Controller {
     public Button buttSquare;
     public Button buttRec;
     public Button buttRoot;
+    public Button buttC;
+    public Button buttOff;
     public Label mainlabel;
     public Label historylabel;
 
@@ -198,5 +200,14 @@ public class Controller {
         double x = Double.parseDouble(mainlabel.getText());
         x = Math.sqrt(x);
         mainlabel.setText(String.valueOf(getwholeNum(x)));
+    }
+
+    public void actionButtC() {
+        mainlabel.setText("");
+        historylabel.setText("");
+    }
+
+    public void actionButtOff(){
+        System.exit(0);
     }
 }

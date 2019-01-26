@@ -51,9 +51,9 @@
                      <cursor>
                         <Cursor fx:constant="HAND" />
                      </cursor></Button>
-                  <Button layoutX="316.0" layoutY="35.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="970.0" styleClass="buttSwitchDot" stylesheets="@butNumStyle.css" text="\%">
+                  <Button id="buttOff" fx:id="buttOFF" layoutX="316.0" layoutY="35.0" mnemonicParsing="false" onAction="#actionButtOff" prefHeight="100.0" prefWidth="970.0" styleClass="buttSwitchDot" stylesheets="@butNumStyle.css" text="OFF">
                      <font>
-                        <Font name="Segoe UI Semibold" size="36.0" />
+                        <Font name="Segoe UI Semibold" size="34.0" />
                      </font>
                      <cursor>
                         <Cursor fx:constant="HAND" />
@@ -65,7 +65,7 @@
                      <cursor>
                         <Cursor fx:constant="HAND" />
                      </cursor></Button>
-                  <Button mnemonicParsing="false" prefHeight="120.0" prefWidth="970.0" styleClass="buttSwitchDot" stylesheets="@butNumStyle.css" text="C" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                  <Button fx:id="buttC" mnemonicParsing="false" onAction="#actionButtC" prefHeight="120.0" prefWidth="970.0" styleClass="buttSwitchDot" stylesheets="@butNumStyle.css" text="C" GridPane.columnIndex="1" GridPane.rowIndex="1">
                      <font>
                         <Font name="Segoe UI Semibold" size="36.0" />
                      </font>
