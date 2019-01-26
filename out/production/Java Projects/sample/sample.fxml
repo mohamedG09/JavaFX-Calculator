@@ -53,7 +53,7 @@
                      </cursor></Button>
                   <Button id="buttOff" fx:id="buttOFF" layoutX="316.0" layoutY="35.0" mnemonicParsing="false" onAction="#actionButtOff" prefHeight="100.0" prefWidth="970.0" styleClass="buttSwitchDot" stylesheets="@butNumStyle.css" text="OFF">
                      <font>
-                        <Font name="Segoe UI Semibold" size="34.0" />
+                        <Font name="Segoe UI Semibold" size="32.0" />
                      </font>
                      <cursor>
                         <Cursor fx:constant="HAND" />
